@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+    char fruit;
+    int cnt; 
+
+    printf("좋아하는과일:");
+    scanf("%s",fruit);
+    printf("몇개:");
+    scanf("%d",3);
+    printf("%s를%d개드립니다.\n,fruit,cnt); 
+  
+return 0;
+}
