@@ -2,14 +2,20 @@
 
 int main(void)
 {
-    char fruit;
-    int cnt; 
+  int a,b;
+  int sum,sub,mul,inv;
+a=10;
+b=20;
+sum=a+b;
+sub=a-b;
+mul=a*b;
+inv=-a;
 
-    printf("좋아하는과일:");
-    scanf("%s",fruit);
-    printf("몇개:");
-    scanf("%d",3);
-    printf("%s를%d개드립니다.\n,fruit,cnt); 
+    printf("%d %d\n",a,b);
+    printf("%d\n",sum);
+    printf("%d\n",sub);
+    printf("%d\n",mul);
+    printf("%d\n",inv); 
   
 return 0;
 }
