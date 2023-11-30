@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+  int a=10;
+  double b=3.4;
+
+  printf("int형변수의크기:%d\n",sizeof(a));
+  printf("double형변수의크기:%d\n",sizeof(b));
+  printf("정수형상수의크기:%d\n"sizeof(10));
+  printf("수식의결과값의크기:%\n",sizeof(1.5+3.4));
+  printf("char자료형의크기:%d\n",sizeof(char));
+ 
+ return 0;
+}
