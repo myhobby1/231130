@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void)
+{
+  int a,b,tot;
+  double avg;
+
+  printf("두과목의점수:");
+  scanf(%d %d\n",&a,&b);
+  tot=a+b;
+  avg=tot/2.0;
+
+printf("평균:%d\n",avg);
+ 
+ return 0;
+}
