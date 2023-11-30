@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(void)
+{
+  int chest=95;
+if(chest<=90)
+{
+  size='s';
+}
+else if(90<chest<=100)
+{
+  size='m';
+}
+else
+{
+size='s';
+} 
+
+  return 0;
+}
